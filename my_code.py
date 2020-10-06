@@ -64,91 +64,92 @@ def project():
             Min = 49
             Max = 68
             number = randint(Min,Max)
-            print("The temprature for",A,"will be around",number)
+            print("The temprature for",A,"will be around",number,"°F")
             print("Have fun out there") 
         elif Z == B:
             from random import randint
             Min = 50
             Max = 70
             number = randint(Min,Max)
-            print("The temprature for",B,"will be around",number)
+            print("The temprature for",B,"will be around",number,"°F")
             print("Have fun out there")     
         elif Z == C:
             from random import randint
             Min = 52
             Max = 70
             number = randint(Min,Max)
-            print("The temprature for",C,"will be around",number) 
+            print("The temprature for",C,"will be around",number,"°F") 
             print("Have fun out there") 
         elif Z == D:
             from random import randint
             Min = 54
             Max = 73
             number = randint(Min,Max)
-            print("The temprature for",D,"will be around",number)
+            print("The temprature for",D,"will be around",number,"°F")
             print("Have fun out there")   
         elif Z == E:
             from random import randint
             Min = 58
             Max = 74
             number = randint(Min,Max)
-            print("The temprature for",E,"will be around",number)
+            print("The temprature for",E,"will be around",number,"°F")
             print("Have fun out there")  
         elif Z == F:
             from random import randint
             Min = 61
             Max = 80
             number = randint(Min,Max)
-            print("The temprature for",F,"will be around",number)
+            print("The temprature for",F,"will be around",number,"°F")
             print("Have fun out there")  
         elif Z == G:
             from random import randint
             Min = 65
             Max = 84
             number = randint(Min,Max)
-            print("The temprature for",G,"will be around",number)
+            print("The temprature for",G,"will be around",number,"°F")
             print("Have fun out there")  
         elif Z == H:
             from random import randint
             Min = 66
             Max = 85
             number = randint(Min,Max)
-            print("The temprature for",H,"will be around",number)
+            print("The temprature for",H,"will be around",number,"°F")
             print("Have fun out there")  
         elif Z == I:
             from random import randint
             Min = 65
             Max = 83
             number = randint(Min,Max)
-            print("The temprature for",I,"will be around",number)
+            print("The temprature for",I,"will be around",number,"°F")
             print("Have fun out there") 
         elif Z == J:
             from random import randint
             Min = 60
             Max = 79
             number = randint(Min,Max)
-            print("The temprature for",J,"will be around",number) 
+            print("The temprature for",J,"will be around",number,"°F") 
             print("Have fun out there") 
         elif Z == K:
             from random import randint
             Min = 53
             Max = 73
             number = randint(Min,Max)
-            print("The temprature for",K,"will be around",number)
+            print("The temprature for",K,"will be around",number,"°F")
             print("Have fun out there")  
         elif Z == L:
             from random import randint
             Min = 48
             Max = 69
             number = randint(Min,Max)
-            print("The temprature for",L,"will be around",number)
+            print("The temprature for",L,"will be around",number,"°F")
             print("Have fun out there") 
         else:
             print("Invalid Input")
             print("please type month name correctly")  
 project()
 while True:
-    print("Would do you like to play again? ")
+    print()
+    print("Would do you like to start again? ")
     a = input("Enter 'yes' or 'no': ")
     if a == 'yes':
         project()
