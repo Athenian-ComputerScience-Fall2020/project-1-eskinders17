@@ -39,7 +39,7 @@ def project():
             a.append(num)
         avg = sum(a)/n
         print()
-        print("Average temprature of ",n ," days is: ",round(avg,2))
+        print("Average temprature of the",n ,"days is: ",round(avg,2))
 
     word3 = "3" 
     while x != word3:
