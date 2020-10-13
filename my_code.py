@@ -1,35 +1,34 @@
-# Collaborators (including web sites where you got help: (enter none if you didn't need help)
+# Collaborators only (https://www.youtube.com/watch?v=jY86KJslDmQ)
 #  
-#enter f to change to c or vice versea
-#ask which one do u want
-#filter invalide inputs
-#convert to the desired
-#tell a message to wear jacket or smth
-#ask if they want to know the average weather of the week
-#if yes dopy average projesct and also ask for f or c input and out
-#priict the future by asking for a month nmae
-#the put randint of the month to guess beg and end should be from the internet
-#respond to bad input
-#put a message for every month
+
+
+
+
+
+
+
+
+
+
 def project():
     print("      WELCOME TO THE WEATHER WORLD ")
     print()
     print("To convert celsius to fahrenheit, Enter '1' ")
     print("To calculate average temprature, Enter '2' ")
-    print("To see future weather predictions, Enter '3'")
+    print("To see future weather predictions, Enter '3'")#program asks what the use wants to do
     x = input("Enter 1, 2 or 3 to continue: ")
     word1 = "1"
     while x != word1:
-        print("You did not enter 1")
+        print("You did not enter 1")#responds to bad input
         break
     else:
         celcius = int(input("Enter the temprature in celsius: "))
         f = (celcius*1.8)+32
-        print("Temprature in fahrenheit is: ",f)
+        print("Temprature in fahrenheit is: ",f)#enter fahrenheit to change to celsius or vice versea
 
     word2 = "2"
     while x != word2:
-        print("You did not enter 2")
+        print("You did not enter 2")#responds to bad input
         break
     else:
         n = int(input("Enter how many days you wanted to be averaged: "))
@@ -37,13 +36,13 @@ def project():
         for i in range(0,n):
             num = int(input("Enter a degree: "))
             a.append(num)
-        avg = sum(a)/n
+        avg = sum(a)/n#use users input to do average
         print()
         print("Average temprature of the",n ,"days is: ",round(avg,2))
 
     word3 = "3" 
     while x != word3:
-        print("You did not enter 3") 
+        print("You did not enter 3")#responds to bad input
         break
     else:
         Z = input("Please enter a month name: ")
@@ -60,11 +59,11 @@ def project():
         K = "november"
         L = "december"
         if Z == A:
-            from random import randint
+            from random import randint#guesses future weather
             Min = 49
             Max = 68
-            number = randint(Min,Max)
-            print("The temprature for",A,"will be around",number,"°F")
+            number = randint(Min,Max) #the guesses are between a certain number that I got from the internet
+            print("The temprature for",A,"will be around",number,"°F")#put different message for every month
             print("Have fun out there") 
         elif Z == B:
             from random import randint
