@@ -1,13 +1,5 @@
-# Collaborators only (https://www.youtube.com/watch?v=jY86KJslDmQ)
-#  
-
-
-
-
-
-
-
-
+# Collaborators (https://www.youtube.com/watch?v=jY86KJslDmQ)
+#  Megan Leich
 
 
 def project():
@@ -164,7 +156,7 @@ while True:
     if a == 'yes':
         project()
     else:
-        print("Good bye")
+        print("Thank you. Good bye")
         
         break            
 
